@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.navBar{
+    display: flex;
+}
+.rightSectNav{
+    position: absolute;
+    right: 20px;
+}
+.icon-margin{
+    font-size: 25px !important;
+}
+.icon-login-center{
+    position: relative;
+    top: 3px;
+}
+.J{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 0px 12px 2px 12px;
+}
+.get-started-btn:hover{
+    background-color: white;
+    color: black;
+}
+.fs-big{
+    font-size: 55px !important;
+}
