@@ -44,3 +44,9 @@ body{
 .thirdPart p{
     line-height: 15px;
 }
+.cardsParent{
+    margin-top: 100px;
+}
+.card{
+    border: 0 !important;
+}
