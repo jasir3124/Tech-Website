@@ -31,3 +31,16 @@ body{
 .fs-big{
     font-size: 55px !important;
 }
+.align-center{
+    align-items: center;
+}
+.secondPart{
+    padding: 150px 0px 150px 0px;
+    background-color: rgba(62, 218.475, 243, 1)
+}
+.thirdPart{
+    padding: 50px;
+} 
+.thirdPart p{
+    line-height: 15px;
+}
