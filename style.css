@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding: 0;
+    overflow-x: hidden;
 }
 .navBar{
     display: flex;
@@ -41,7 +42,7 @@ body{
 .thirdPart{
     padding: 50px;
 } 
-.thirdPart p{
+.whatWeOfferP{
     line-height: 15px;
 }
 .cardsParent{
@@ -49,4 +50,18 @@ body{
 }
 .card{
     border: 0 !important;
+}
+.fifthPart{
+    padding-left: 100px;
+    background-color: #a2d9ff;
+}
+.iconscontainer{
+    margin-top: 100px;
+}
+.iconName{
+    position: relative;
+    right: 15px;
+}
+.seventhPart{
+    background-color: rgb(240, 240, 240);
 }
