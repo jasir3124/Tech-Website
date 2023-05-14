@@ -1,7 +1,6 @@
 body{
     margin:0;
     padding: 0;
-    overflow-x: hidden;
 }
 .navBar{
     display: flex;
@@ -64,4 +63,19 @@ body{
 }
 .seventhPart{
     background-color: rgb(240, 240, 240);
+}
+@media only screen and (max-width:1000px){
+    .rightSectonPhoto{
+        display: none;
+    }
+}
+@media only screen and (max-width:1020px){
+    .navBar{
+        display: grid;
+        justify-content: center;
+
+    }
+    .rightSectNav{
+        position: inherit;
+    }
 }
