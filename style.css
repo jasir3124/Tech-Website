@@ -63,7 +63,25 @@ body{
 }
 .seventhPart{
     background-color: rgb(240, 240, 240);
+    padding: 50px;
 }
+.cardCont {
+  width: 190px;
+  border-radius: 6px;
+  background-color: rgb(231, 175, 184);
+}
+.cardImage:hover {
+  transform: scale(0.98);
+}
+.category:hover {
+  cursor: pointer;
+}
+.heading:hover {
+  cursor: pointer;
+}
+
+
+
 @media only screen and (max-width:1000px){
     .rightSectonPhoto{
         display: none;
